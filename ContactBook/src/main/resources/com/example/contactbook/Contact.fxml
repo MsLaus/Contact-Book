@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:id="box" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="575.0" spacing="10.0" styleClass="background" stylesheets="@styleSheet.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.contactbook.ContactController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="70.0" prefWidth="29.0">
+         <children>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/contact-icon.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="70.0" prefWidth="119.0">
+         <children>
+            <Label fx:id="Name" text="Andreea Andrea">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="70.0" prefWidth="96.0">
+         <children>
+            <Label fx:id="phoneNumber" text="+49*********">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="70.0" prefWidth="156.0">
+         <children>
+            <Label fx:id="email" alignment="CENTER" prefHeight="17.0" prefWidth="185.0" text="andreeaAndreea@gmail.com" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="70.0" prefWidth="33.0">
+         <children>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/phone-call-icon.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="471.0" layoutY="10.0" prefHeight="70.0" prefWidth="31.0">
+         <children>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/email-icon.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="504.0" layoutY="10.0" prefHeight="70.0" prefWidth="34.0">
+         <children>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/trash-icon.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+   </children>
+</HBox>

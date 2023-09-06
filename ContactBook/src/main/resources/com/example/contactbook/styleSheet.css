@@ -1,0 +1,11 @@
+.contact{
+    -fx-background-color :  rgba(98, 197, 254);
+}
+
+.background {
+    -fx-background-color :  white;
+}
+
+.most-contacted{
+    -fx-background-radius: 0 50 50 50;
+}
